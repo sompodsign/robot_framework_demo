@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.8.0 on win32)" generated="20211108 11:35:36.563" rpa="false" schemaversion="2">
+<suite id="s1" name="TC 001 start close browser" source="C:\Users\Shampad\Desktop\QUPS\robot_demo\test_cases\TC_001_start_close_browser.robot">
+<test id="s1-t1" name="Robot First Test Case">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211108 11:35:36.785" level="INFO">Opening browser 'Chrome' to base url 'https://bikroy.com/'.</msg>
+<status status="PASS" starttime="20211108 11:35:36.785" endtime="20211108 11:35:40.882"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20211108 11:35:40.882" endtime="20211108 11:35:41.000"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath:(//a[@aria-label='Login'])[2]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211108 11:35:41.001" level="INFO">Clicking element 'xpath:(//a[@aria-label='Login'])[2]'.</msg>
+<status status="PASS" starttime="20211108 11:35:41.001" endtime="20211108 11:35:41.071"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:fld_username</arg>
+<arg>${email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211108 11:35:41.072" level="INFO">Typing text 'sompod123@gmail.com' into text field 'name:fld_username'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20211108 11:35:41.245" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-10.png"&gt;&lt;img src="selenium-screenshot-10.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20211108 11:35:41.086" endtime="20211108 11:35:41.246"/>
+</kw>
+<msg timestamp="20211108 11:35:41.248" level="FAIL">Element with locator 'name:fld_username' not found.</msg>
+<status status="FAIL" starttime="20211108 11:35:41.072" endtime="20211108 11:35:41.248"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath://input[@name='fld_email']</arg>
+<arg>sompod123@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20211108 11:35:41.249" endtime="20211108 11:35:41.249"/>
+</kw>
+<kw name="Clear Element Text" library="SeleniumLibrary">
+<arg>name:fld_username</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20211108 11:35:41.249" endtime="20211108 11:35:41.249"/>
+</kw>
+<kw name="Select Radio Button" library="SeleniumLibrary">
+<arg>add_type</arg>
+<arg>office</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<status status="NOT RUN" starttime="20211108 11:35:41.250" endtime="20211108 11:35:41.250"/>
+</kw>
+<kw name="Select Checkbox" library="SeleniumLibrary">
+<arg>xpath:(//input[@name='terms'])[1]</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20211108 11:35:41.250" endtime="20211108 11:35:41.250"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>xpath://a[normalize-space()='Read Detail']</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20211108 11:35:41.250" endtime="20211108 11:35:41.250"/>
+</kw>
+<status status="FAIL" starttime="20211108 11:35:36.784" endtime="20211108 11:35:41.251">Element with locator 'name:fld_username' not found.</status>
+</test>
+<status status="FAIL" starttime="20211108 11:35:36.564" endtime="20211108 11:35:41.252"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="TC 001 start close browser">TC 001 start close browser</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
