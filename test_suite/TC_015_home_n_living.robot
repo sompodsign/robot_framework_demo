@@ -3,7 +3,7 @@ Resource  common.robot
 
 
 *** Test Cases ***
-Mobils Result
+Home And Living
     Open Homepage And Verify
     Search Product
     Click Home And Living

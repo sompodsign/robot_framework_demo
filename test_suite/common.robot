@@ -120,6 +120,7 @@ Click Profile Database And Verify
 
 Click Chat And Verify
     Click Chat
+    sleep  1s
     element text should be  ${chat_page_title}  My Chats
 
 Click Post Your Ad And Verify

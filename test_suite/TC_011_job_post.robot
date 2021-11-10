@@ -3,7 +3,7 @@ Resource  common.robot
 
 
 *** Test Cases ***
-Sell Something
+Job Post
     Open Homepage And Verify
     Valid Login
     Click Post Your Ad

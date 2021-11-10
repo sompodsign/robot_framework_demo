@@ -3,7 +3,7 @@ Resource  common.robot
 
 
 *** Test Cases ***
-Vehicle Result Page
+Pet And Animals Page
     Open Homepage And Verify
     Search Product
     Click Pet And Animals

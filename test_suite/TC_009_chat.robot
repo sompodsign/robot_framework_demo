@@ -3,7 +3,7 @@ Resource  common.robot
 
 
 *** Test Cases ***
-Profile Database Page
+Chat Page
     Open Homepage And Verify
     Valid Login
     Click Chat And Verify
