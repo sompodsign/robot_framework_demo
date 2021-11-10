@@ -1,7 +1,7 @@
 *** Settings ***
 Library  SeleniumLibrary
-Resource  ../resources/user_data.txt
-Resource  ../resources/locators.txt
+Resource  ../resources/user_data.robot
+Resource  ../resources/locators.robot
 
 
 *** Keywords ***
