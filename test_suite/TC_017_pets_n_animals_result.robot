@@ -3,6 +3,8 @@ Resource  common.robot
 
 
 *** Test Cases ***
-Homepage Load
+Vehicle Result Page
     Open Homepage And Verify
+    Search Product
+    Click Pet And Animals
     Close Browsers

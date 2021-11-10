@@ -3,14 +3,9 @@ Resource  common.robot
 
 
 *** Test Cases ***
-Valid Login
+Sell Something
     Open Homepage And Verify
     Valid Login
+    Click Post Your Ad
+    Click Job Post And Verify
     Close Browsers
-
-
-Invalid Login
-    Open Homepage And Verify
-    INVALID LOGIN
-    Close Browsers
-

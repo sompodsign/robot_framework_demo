@@ -3,14 +3,11 @@ Resource  common.robot
 
 
 *** Test Cases ***
-Valid Login
+My Favorites Page
     Open Homepage And Verify
     Valid Login
+    Click MyAccount And Verify
+    Click Favorites
     Close Browsers
 
-
-Invalid Login
-    Open Homepage And Verify
-    INVALID LOGIN
-    Close Browsers
-
+   #robot test_suite/TC_004_my_membership_page.robot

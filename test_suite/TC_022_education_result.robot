@@ -3,6 +3,8 @@ Resource  common.robot
 
 
 *** Test Cases ***
-Homepage Load
+Education Results page
     Open Homepage And Verify
+    Search Product
+    Click Education
     Close Browsers

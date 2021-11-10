@@ -3,6 +3,8 @@ Resource  common.robot
 
 
 *** Test Cases ***
-Homepage Load
+Electronics results
     Open Homepage And Verify
+    Search Product
+    Click Electronics
     Close Browsers

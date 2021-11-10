@@ -3,6 +3,8 @@ Resource  common.robot
 
 
 *** Test Cases ***
-Homepage Load
+Hobbies And Sports Result
     Open Homepage And Verify
+    Search Product
+    Click Hobbies Sports
     Close Browsers

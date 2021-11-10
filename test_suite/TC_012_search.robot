@@ -3,6 +3,7 @@ Resource  common.robot
 
 
 *** Test Cases ***
-Homepage Load
+Sell Something
     Open Homepage And Verify
+    Search Product
     Close Browsers

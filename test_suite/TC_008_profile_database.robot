@@ -3,14 +3,9 @@ Resource  common.robot
 
 
 *** Test Cases ***
-Valid Login
+Profile Database Page
     Open Homepage And Verify
     Valid Login
+    Click MyAccount And Verify
+    Click Profile Database And Verify
     Close Browsers
-
-
-Invalid Login
-    Open Homepage And Verify
-    INVALID LOGIN
-    Close Browsers
-

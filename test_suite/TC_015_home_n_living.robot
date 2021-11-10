@@ -3,6 +3,8 @@ Resource  common.robot
 
 
 *** Test Cases ***
-Homepage Load
+Mobils Result
     Open Homepage And Verify
+    Search Product
+    Click Home And Living
     Close Browsers
